@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body {
+        background:white;
+    }
+
+    .zemlja {
+        width: 83px;
+        height: 83px;
+        margin: 5% auto;
+        background: url('C:/Users/Dragan/Desktop/zemlja.png') left top;
+        animation: play 5s steps(5) infinite, playTop 25s steps(5) infinite;
+    }
+
+    @keyframes play {
+	    100% { background-position: -415px; }
+    }
+    @keyframes playTop {
+            100% { background-position-y: -415px }
+    </style>
+</head>
+<body>
+    <div class="zemlja"></div>
+</body>
+</html>
